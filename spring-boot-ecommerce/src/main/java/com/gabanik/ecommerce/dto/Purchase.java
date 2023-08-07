@@ -5,8 +5,11 @@ import java.util.Set;
 import com.gabanik.ecommerce.entity.*;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class Purchase {
 
 	private Customer customer;
